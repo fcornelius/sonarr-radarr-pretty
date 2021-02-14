@@ -1,8 +1,12 @@
 
 @import url(https://gilbn.github.io/theme.park/CSS/themes/sonarr/space-gray.css);
 
+:root {
+    --modal-bg-color: radial-gradient( ellipse at top, rgb(28 37 41) 0%, rgba(37,50,55,1) 100.2% ) center center/cover no-repeat fixed;
+}
+
 body {
-    font-family: 'open sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+    font-family: 'open sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
 }
 
 .SeriesIndexPoster\/content\/uRtdS{
@@ -200,4 +204,29 @@ body {
 .SeriesDetailsSeason\/actions\/3JG21 svg, .SeriesDetailsSeason\/expandButton\/dI-DJ svg {
     font-size: 17px !important;
     color: #ffffff99 !important;
+}
+
+.SeriesDetailsSeason\/episodes\/2_O-g {
+    border-top: unset;
+}
+
+.TableRowCell\/cell\/2fbg4 {
+    border-top: 1px solid #eeeeee14;
+}
+
+.Label\/small\/3DzJB {
+    padding: 2px 6px;
+}
+
+.CalendarEvent\/event\/3Uyb9 {
+    border-radius: 4px;
+}
+
+.CalendarEvent\/seriesTitle\/3sg1o, .CalendarEvent\/episodeInfo\/IWdbW, .CalendarEvent\/airTime\/3Wzho, .Legend\/legend\/tgR0o .LegendItem\/legendItem\/zXNYn {
+    border-radius: 4px;
+}
+
+.Card\/card\/1iGZk, .QualityProfiles\/addQualityProfile\/2U2Io {
+    background-color: rgb(0 0 0 / 22%);
+    box-shadow: 0 0 10px 1px #00000029;
 }
