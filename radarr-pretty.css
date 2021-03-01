@@ -1,0 +1,290 @@
+
+@import url(https://gilbn.github.io/theme.park/CSS/themes/radarr/plex.css);
+
+:root {
+    --modal-bg-color: radial-gradient( ellipse at top, rgb(28 37 41) 0%, rgba(37,50,55,1) 100.2% ) center center/cover no-repeat fixed;
+}
+
+body {
+    font-family: 'open sans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !important;
+}
+
+.MovieIndexPoster-content-2OZcc{
+    overflow: hidden;
+    transition: all 50ms ease-in;
+    border-radius: 4px;
+    border: solid 1px #ffffff00;
+    box-shadow: 0 0 7px #0000002b;
+    text-align: center;
+}
+
+.MovieIndexPoster-content-2OZcc:hover {
+    z-index: 2;
+    border: solid 1px var(--accent-color);
+    box-shadow: 0 0 7px #0000002b;
+}
+
+.MovieIndexPoster-controls-COwa9 {
+    background-color: #000 !important;
+    bottom: -5px;
+    z-index: 1;
+}
+
+.MovieIndexPoster-content-2OZcc:hover .MovieIndexPoster-controls-COwa9 {
+    opacity: 0.9;
+    transition: all 200ms ease-out;
+    border-radius: 10px;
+    bottom: 10px;
+}
+
+.MovieIndexPoster-content-2OZcc a.MovieIndexPoster-link-3_ZOg.Link-link-1rgM9.Link-link-1rgM9.Link-to-6fmSq::after {
+    transition: all 100ms ease-in;
+    background: radial-gradient(farthest-corner at 50% 50%,rgba(50,50,50,.5) 50%,#323232 100%);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.MovieIndexPoster-content-2OZcc:hover a.MovieIndexPoster-link-3_ZOg.Link-link-1rgM9.Link-link-1rgM9.Link-to-6fmSq::after {
+    display: block;
+    background: radial-gradient(farthest-corner at 50% 50%,rgba(50,50,50,.5) 50%,#423c31ab 100%);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.MovieIndexPoster-content-2OZcc:hover .MovieIndexPoster-title-Umirt {
+    color: white;
+}
+
+.MovieIndexPoster-title-Umirt, .MovieIndexPosterInfo-info-2Oh-5 {
+    color: #fff;
+    color: #ffffff73;
+    transition: all 50ms ease-in;
+    font-size: 12px;
+    width: 100%;
+    padding-right: 20px;
+    font-family: Open Sans Semibold,Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: unset;
+}
+
+.MovieIndexPoster-title-Umirt {
+    overflow: hidden !important;
+    max-width: 100%;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    text-align: center;
+    position: absolute;
+    margin-top: 29px;
+}
+
+.MovieIndexPoster-title-Umirt:nth-of-type(4) {
+    margin-top: 10px;
+    background: #00000033;
+    width: 72%;
+    text-align: center;
+    padding: 0;
+    left: 15%;
+    border-radius: 10px;
+}
+
+.MovieIndexPoster-content-2OZcc:hover .MovieIndexPosterInfo-info-2Oh-5 {
+    color: white;
+}
+
+.MovieIndexPosterInfo-info-2Oh-5 {
+    font-size: 10px;
+    position: absolute;
+    margin-top: 47px;
+}
+
+.PageToolbar-toolbar-1Lo1N {
+    background-color: rgba(0, 0, 0, .35) !important;
+}
+
+.PageToolbar-toolbar-1Lo1N button {
+    -webkit-appearance: button;
+    color: #ffffff99;
+}
+
+.MovieSearchInput-wrapper-83YYX ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ffffff4d;
+    opacity: 1; /* Firefox */
+}
+
+.MovieSearchInput-wrapper-83YYX svg:not(:root).svg-inline--fa {
+    color: #ffffffab;
+}
+
+.MovieSearchInput-input-2j6jL {
+    margin-left: 8px;
+    width: 340px;
+    border: none;
+    /* border-bottom: solid 1px #fff; */
+    border-radius: 0;
+    background-color: #ffffff0a;
+    box-shadow: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: #fff;
+    transition: border 0.3s ease-out;
+}
+
+.PageSidebarItem-item-2zy7a svg {
+    color: #ffffff7a;
+}
+
+.PageSidebarItem-isActiveItem-bUesh svg {
+    color: white;
+}
+
+.MenuContent\/scroller\/V4APc {
+    box-shadow: #00000042 0 4px 5px 0px;
+}
+
+.ModalContent-modalContent--txrl {
+    border-radius: 5px;
+}
+
+.ModalHeader-modalHeader-gpcvG {
+    border-radius: 5px 5px 0 0;
+}
+
+.ModalFooter-modalFooter-1N5Ku {
+    border-radius: 0 0 5px 5px;
+}
+
+.MovieDetails-backdrop-13an1 {
+    filter: blur(20px);
+}
+
+.MovieDetails-detailsInfoLabel-3gZkd:nth-of-type(1) {
+    display: block;
+    color: #ffffffa1;   
+}
+
+.MovieDetails-collection-3pOxO, .MovieDetails-path-3M9zF, .MovieDetails-qualityProfileName-2713s, .MovieDetails-sizeOnDisk-3bLNK, .MovieDetails-statusName-34ed8, .MovieDetails-studio-1NsCn {
+    font-size: 14px !important;
+}
+
+.MovieDetails-poster-caJ5I {
+    border-radius: 4px;
+}
+
+.PageToolbarButton-labelContainer-1XS0i {
+    font-size: 8px;
+    opacity: 0;
+}
+
+.Menu-menu-3XXIf .PageToolbarButton-labelContainer-1XS0i {
+    opacity: 1;
+}
+
+.PageToolbarButton-toolbarButton-QiQEt:hover .PageToolbarButton-labelContainer-1XS0i {
+    opacity: 1;
+}
+
+.PageToolbarButton-toolbarButton-QiQEt svg {
+    vertical-align: -0.8em;
+    font-size: 16px !important;
+}
+
+.PageToolbarButton-toolbarButton-QiQEt:hover svg {
+    vertical-align: -0.125em;
+}
+
+.PageToolbarButton-toolbarButton-QiQEt {
+    width: 74px;
+}
+
+.TableRowCell-cell-2fbg4 {
+    border-top: 1px solid #eeeeee14;
+}
+
+.Label-small-3DzJB {
+    padding: 2px 6px;
+}
+
+.InfoLabel-title-14xBz {
+    margin-bottom: 4px;
+}
+
+
+.MovieStatusLabel-downloaded-2JCFr {
+    padding-left: unset;
+    border-left: unset;
+}
+
+.MovieStatusLabel-downloaded-2JCFr::before {
+    content: " ";
+    white-space: pre;
+    display: inline-block;
+    background: #27c24c;
+    width: 7px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
+.MovieStatusLabel-missing-1QbQy {
+    padding-left: unset;
+    border-left: unset;
+}
+
+.MovieStatusLabel-missing-1QbQy::before {
+    content: " ";
+    white-space: pre;
+    display: inline-block;
+    background: #f05050;
+    width: 7px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
+.CalendarEvent-event-3Uyb9 {
+    border-radius: 4px;
+}
+
+.CalendarDay-isToday-1rFJO {
+    background-color: hsl(33deg 77% 45% / 28%) !important;
+}
+
+.LegendItem-legendItemContainer-1YPO5 {
+    width: 240px;
+}
+
+.Card-card-1iGZk, .QualityProfiles-addQualityProfile-2U2Io {
+    background-color: rgb(0 0 0 / 22%);
+    box-shadow: 0 0 10px 1px #00000029;
+}
+
+.PageHeader-logoFull-2z6pD {
+    margin-left: 15px;
+    width: 68px;
+    height: unset;
+}
+
+.MovieDetails-tabList-2dYVV {
+    border-bottom: 1px solid #e5a00c75;
+    margin-bottom: 25px;
+}
+
+.MovieDetails-tab-33amD {
+    color: #ffffff8c;
+    transition: color 100ms ease-in-out;
+}
+
+.MovieDetails-selectedTab-3hMLN {
+    color: white;
+}
+
+.MovieDetails-tab-33amD:hover {
+    color: white;
+}
