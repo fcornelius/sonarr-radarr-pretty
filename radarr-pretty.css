@@ -2,7 +2,7 @@
 @import url(https://gilbn.github.io/theme.park/CSS/themes/radarr/plex.css);
 
 :root {
-    --modal-bg-color: radial-gradient( ellipse at top, rgb(28 37 41) 0%, rgba(37,50,55,1) 100.2% ) center center/cover no-repeat fixed;
+    --modal-bg-color: radial-gradient( ellipse at top, rgb(41 39 38) 0%, rgb(27 21 16) 100.2% ) center center/cover no-repeat fixed;
 }
 
 body {
@@ -156,14 +156,17 @@ body {
 
 .ModalHeader-modalHeader-gpcvG {
     border-radius: 5px 5px 0 0;
+    border-bottom: 1px solid #e5a00d42;
 }
 
 .ModalFooter-modalFooter-1N5Ku {
     border-radius: 0 0 5px 5px;
+    border-top: 1px solid #e5a00d42;
 }
 
 .MovieDetails-backdrop-13an1 {
-    filter: blur(20px);
+    filter: blur(15px);
+    opacity: 0.6;
 }
 
 .MovieDetails-detailsInfoLabel-3gZkd:nth-of-type(1) {
@@ -287,4 +290,19 @@ body {
 
 .MovieDetails-tab-33amD:hover {
     color: white;
+}
+
+.AddNewMovieModalContent-poster-XAq4D {
+    margin-right: unset;
+    border-radius: 5px;
+    box-shadow: 0 0 7px #0000006b;
+}
+
+.AddNewMovieModalContent-info-3mez1 {
+    margin-left: 20px;
+}
+
+.AddNewMovieSearchResult-poster-NcZmS {
+    border-radius: 4px;
+    box-shadow: 0 0 7px #0000006b;
 }
