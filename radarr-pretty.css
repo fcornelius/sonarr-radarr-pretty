@@ -251,6 +251,21 @@ body {
     border-radius: 2px;
 }
 
+.MovieStatusLabel-queue-BOlfv {
+    padding-left: unset;
+    border-left: unset;
+}
+
+.MovieStatusLabel-queue-BOlfv::before {
+    content: " ";
+    white-space: pre;
+    display: inline-block;
+    background: #7a43b6;
+    width: 7px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
 .CalendarEvent-event-3Uyb9 {
     border-radius: 4px;
 }
