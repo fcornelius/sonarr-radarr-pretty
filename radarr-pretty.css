@@ -256,6 +256,21 @@ body {
     border-left: unset;
 }
 
+.MovieStatusLabel-notAvailable-2Amyc {
+    padding-left: unset;
+    border-left: unset;
+}
+
+.MovieStatusLabel-notAvailable-2Amyc::before {
+    content: " ";
+    white-space: pre;
+    display: inline-block;
+    background: #5d9cec;
+    width: 7px;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+
 .MovieStatusLabel-queue-BOlfv::before {
     content: " ";
     white-space: pre;
